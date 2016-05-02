@@ -6,7 +6,7 @@ public class Aplicacao {
 
 	public static void main(String[] args) {
 		
-		//Criação de objetos e chamadas de métodos.
+		/* Criação de objetos e chamadas de métodos.*/
 		AreaCalculavel r1 = new Retangulo();
 		double area1 = r1.calcularArea();
 		
@@ -22,11 +22,10 @@ public class Aplicacao {
 		AreaCalculavel tr1  = new Trapezio();
 		double area5 = tr1.calcularArea();
 		
-		JOptionPane.showMessageDialog(null, "A área do retângulo é: " + area1 + "\n"
-											 + "A área do Quadrado é: " + area2 + "\n"	
-											 + "A área da Circunferência é: " + area3 + "\n"
-											 + "A área do Triângulo é: " + area4 + "\n"
-											 + "A área do Trapézio é: " + area5);
-		
+		JOptionPane.showMessageDialog(null, "A área do retângulo é: " + area1 + "\n" 
+											+ "A área do Quadrado é: " + area2 + "\n"	
+											+ "A área da Circunferência é: " + area3 + "\n"
+											+ "A área do Triângulo é: " + area4 + "\n" 
+											+ "A área do Trapézio é: " + area5);
 	}
 }
